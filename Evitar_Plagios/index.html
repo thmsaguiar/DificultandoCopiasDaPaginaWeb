@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<style>
+			body{
+				overflow-x:hidden;
+			}
+		
+			h1{
+				text-align: center;
+			}
+			h4{
+				font-style:italic;
+				}
+			p{
+				text-indent: 4em;
+				width:54%; 				
+			}	
+			hr{
+				width:80%; 
+			}			
+			h4, p{
+				left: 23%;
+				position: relative;
+			}			
+			
+			
+			.image1{
+				position: absolute;
+				left: 80%;		
+				top: 0.6%;
+				height: 51px;						
+			}
+			.image2{
+				position: absolute;
+				left: 20%;		
+				top: 0.6%;
+				height: 51px;
+			}
+			.image3{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				height: 250px;
+			}
+
+			/*Aqui está o id seletor que fará com que não seja selecionado o conteúdo, mesmo que a seleção não conhece apartir do texto*/
+			#seletor {
+			   -webkit-touch-callout: none;
+			   -webkit-user-select: none;
+			   -khtml-user-select: none;
+			   -moz-user-select: none;
+			   -ms-user-select: none;
+			   user-select: none;
+			}					
+		</style>
+
+		<title>Contra Plágios</title>
+		<link rel="shortcut icon" href="favicon.ico" >
+	</head>
+	
+	<!--No body temos onselectstart, oncontextmenu, onMouseOver e também o id seletor-->
+	<body id="seletor" onselectstart="return false" oncontextmenu="return false" ondragstart="return false" onMouseOver="window.status='..message perso .. '; return true;">
+		
+		<div>
+			<h1>Plágio</h1>
+			<img class="image1" src="images/aa.png">
+			<img class="image2" src="images/ctrlc.jpg">
+			<hr>
+			<img class="image3" src="images/vidadeprogramador.png">
+			<p align="justify">Plágio significa copiar ou assinar uma obra com partes ou totalmente reproduzida de outra pessoa, dizendo que é de sua própria autoria. O plágio pode ser de qualquer natureza, como em livros, música, obras, fotografias, trabalhos, e etc. O plágio ocorre quando um indivíduo copia o trabalho de alguém e não coloca os créditos para o autor original.
+			O plágio é a cópia não autorizada de várias informações, e é considerado crime, previsto no Códio Penal Brasileiro, e na lei 9610. O plágio é considerado uma atitude antiética em vários países, e em vários é considerado como crime de violação de direito autoral.</p>
+			<h4>Fonte: <a href="https://aminoapps.com/c/web-dorama/page/blog/vamos-falar-sobre-plagio/7erX_lJ7TPu3dP34gvmbdlDLgx503QVwVJa" target="_blank"  title="Acesse"> Web Drama</a></h4>
+			<hr>
+		</div>
+		
+	</body>
+	
+</html>
